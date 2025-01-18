@@ -322,3 +322,105 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
+.button {
+  margin-top: 50px;
+  text-align: center;
+}
+.button .btn-primary {
+  color: white;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: none;
+  padding: 18px 36px;
+  cursor: pointer;
+  margin-bottom: 113px;
+}
+.footer-section {
+  background: rgb(255, 248, 243);
+  height: 500px;
+  display: flex;
+
+  justify-content: space-between;
+  padding: 130px 230px 130px 150px;
+  gap: 117px;
+}
+.right-text input {
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 18px 365px 18px 30px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+.right-text input > placeholder {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.right-text textarea {
+  border-radius: 5px;
+  padding: 18px 365px 134px 30px;
+  background: rgb(255, 255, 255);
+  border: none; 
+}
+.footer-section .text-style .title-text {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.des {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.right-text .title-second {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
+.btn-submit{
+  color: white;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: none;
+  padding: 18px 36px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.text-style .icon{
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+
+}
