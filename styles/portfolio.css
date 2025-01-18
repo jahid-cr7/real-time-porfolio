@@ -1,3 +1,6 @@
+body {
+  width: 1500px;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -113,11 +116,10 @@
 }
 .about {
   background-color: rgb(255, 248, 243);
-  width: 1140px;
+  width: auto;
   height: auto;
   margin: 130px auto 130px auto;
   padding: 130px 230px;
-  
 }
 .secondary-bg .about-title {
   color: rgb(24, 24, 24);
@@ -128,7 +130,6 @@
   letter-spacing: 0%;
   text-align: center;
   margin-top: 30px;
-  
 }
 .secondary-bg .about-description {
   color: rgb(117, 117, 117);
@@ -140,9 +141,9 @@
   text-align: center;
   margin-top: 30px;
 }
-.about-items{
-    display: flex;
-    justify-content: space-around;
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
 .about-items .item-title {
   color: rgb(117, 117, 117);
@@ -154,7 +155,7 @@
   text-align: center;
   margin-top: 30px;
 }
-.about-items .item-description{
+.about-items .item-description {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
   font-size: 20px;
@@ -162,6 +163,162 @@
   line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
-  
 }
+.skill {
+  width: auto;
+}
+.headline {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.skill-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.skill-container {
+  display: flex;
+  margin: 50px auto 130px auto;
+  gap: 30px;
+}
+.title-box {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.first-box {
+  border-radius: 5px;
 
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+}
+.second-box {
+  padding: 30px;
+  border-radius: 5px;
+
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.third-box {
+  padding: 30px;
+  border-radius: 5px;
+
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.fourth-box {
+  padding: 30px;
+  border-radius: 5px;
+
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.summary .title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.edu-exp {
+  display: flex;
+  gap: 71px;
+}
+.education .edu {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.first .subject {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.first .university {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.first .edu-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience .exp {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience .dev {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience .company {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience .job-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
