@@ -450,6 +450,9 @@
   margin-top: 30px;
 }
 @media screen and (max-width: 576px) {
+  body{
+    width: 576px;
+  }
   .footer-section {
     flex-direction: column;
     padding: 35px;
@@ -477,9 +480,9 @@
   }
   .banner{
     margin: 0px;
-    border: 1px solid black;
-    height: 400px;
+    height: 500px;
     align-items: center;
+    width: 100%;
   }
   .banner .btn-primary{
     margin-bottom: 10px;
@@ -488,7 +491,7 @@
   }
   .banner .banner-grettings{
     font-size: 20px;
-    margin: ;
+    /* margin: ; */
   }
   .banner .banner-name{
     font-size: 35px;
