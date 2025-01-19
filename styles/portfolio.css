@@ -477,6 +477,8 @@
   }
   .banner{
     margin: 0px;
+    border: 1px solid black;
+    height: 400px;
     align-items: center;
   }
   .banner .btn-primary{
@@ -503,3 +505,4 @@
   }
 
 }
+
